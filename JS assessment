@@ -12,8 +12,7 @@ function mintNFT (name, description) {
   nftCollection.push(nft);
 }
 
-// create a "loop" that will go through an "array" of NFT's
-// and print their metadata with console.log()
+
 function listNFTs () {
   for (let i = 0; i < nftCollection.length; i++) {
     console.log("Name: " + nftCollection[i].name);
